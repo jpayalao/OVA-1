@@ -1,0 +1,67 @@
+
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+body{
+	background-image: url(../img/lago.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	margin-left: 10px;
+	font-size: 40px;
+	text-align: left;
+}
+
+header{
+
+	width: 1000px;
+	height: 200px;
+	background: rgba(255,255,255, 3,5); 
+}
+
+nav{
+width: 1000px;
+height: 2px;
+background: yellow;
+}
+
+ul{
+margin: auto;
+padding-top: 3px;
+}
+
+li{
+float: center;
+list-style-type: none;
+padding: 10px;
+background: black;
+margin: 3px;
+border-radius: 20px;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{padding: 20px; color: white; text-decoration:none;}
+.menu:visited{padding: 20px;color: white; text-decoration:none;}
+.menu:hover{color: red; text-decoration:none;}
+.menu:active{color: white; text-decoration:none;}
